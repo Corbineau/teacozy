@@ -15,21 +15,38 @@ header{
     border-bottom: 1px solid seashell;
     height: 69px;
     width: 100%;
-}
-
-header nav, a{
+    justify-content: space-between;
+    align-items: center;
     
 }
 
+header nav{
+    display: flex;
+    padding-right: 10px;
+}
+
+header a{
+    display: inline-flex;
+    font-size: 22px;
+    color: seashell;
+    padding: 10px;
+}
+
 header img{
-    margin-left: 10px;
+    display: flex;
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .mission{
     display: flex;
-    height: 700px;
+    height: 500px;
     width: 1200px;
-    padding-top: 120px;
+    padding-top: 200px;
     background-image: url(../images/img-mission-background.jpg);
     flex-flow: column wrap;
     justify-content: center;
@@ -48,15 +65,25 @@ header img{
 }
 
 .teaofmonth{
+    width: 1000px;
     
 }
 
-.imagebar{
-    
+.teabar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .tea{
     
+}
+
+.tea img{
+    width: 300px;
+    height: 200px;
+    padding: 0 10px 0 10px;
 }
 
 .locations{

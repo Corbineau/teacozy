@@ -1,4 +1,11 @@
+
+html{
+    margin-top:0;
+    padding-top:0;
+}
 body {
+    margin-top:0;
+    padding-top:0;
     font-family: helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -116,18 +123,19 @@ header img{
 
 footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: column;
 }
 
 .contact{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
+    height: 200px;
 }
 
 .copyright{
-    display: flex;
-    align-items: flex-start;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
 }
 

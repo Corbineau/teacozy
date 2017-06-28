@@ -87,14 +87,39 @@ header img{
 }
 
 .locations{
-    
+    display: flex;
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        
 }
 
 .location{
+    display: inline-flex;
+    background-color: black;
+    margin: 15px 20px 0px 20px;
+    width: 300px;
+    opacity: 1;
     
 }
 
 footer{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    align-items: flex-start;
 }
 

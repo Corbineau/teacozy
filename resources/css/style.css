@@ -41,6 +41,7 @@ header a{
 
 header img{
     display: flex;
+    padding-left: 10px;
 }
 
 .content{
@@ -136,6 +137,6 @@ footer{
 .copyright{
     display: block;
     text-align: left;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 

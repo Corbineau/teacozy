@@ -8,14 +8,66 @@ body {
 }
 
 header{
+    background-color: black;
     display: flex;
     position: fixed;
-    padding: 0, 10px;
     z-index: 1;
     border-bottom: 1px solid seashell;
-    height: 59px;
+    height: 69px;
+    width: 100%;
 }
 
-header a{
+header nav, a{
     
 }
+
+header img{
+    margin-left: 10px;
+}
+
+.mission{
+    display: flex;
+    height: 700px;
+    width: 1200px;
+    padding-top: 120px;
+    background-image: url(../images/img-mission-background.jpg);
+    flex-flow: column wrap;
+    justify-content: center;
+    
+
+}
+
+.mistext{
+    display: block;
+    background-color: black;
+    
+}
+
+.mistext h2{
+    display: block;
+}
+
+.teaofmonth{
+    
+}
+
+.imagebar{
+    
+}
+
+.tea{
+    
+}
+
+.locations{
+    
+}
+
+.location{
+    
+}
+
+footer{
+    
+}
+
